@@ -6,6 +6,8 @@ datePublished: 2026-04-18T19:04:30.778Z
 cuid: cmo4phs1j008h2cmi6we56wgu
 slug: understanding-object-oriented-programming-in-javascript
 cover: https://cdn.hashnode.com/uploads/covers/696877fccb285855f0758646/91bfd74e-8923-4d6d-ac4b-24ab93af7d6d.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/696877fccb285855f0758646/f5b69eae-f506-4e36-8fb8-1edf436e8b1d.png
+tags: js, oop-in-javascript, js-oops, classes-in-javascript
 
 ---
 
