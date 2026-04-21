@@ -126,8 +126,7 @@ A set is also a built-in datatype in Javascript used to store unique values. It 
     }
     ```
     
-
-1.  Check if the value exists, use `set.has(key)`, return a boolean state.
+2.  Check if the value exists, use `set.has(key)`, return a boolean state.
     
     ```javascript
     const set = new Set();
@@ -139,7 +138,7 @@ A set is also a built-in datatype in Javascript used to store unique values. It 
     console.log(set.has(40)); // false
     ```
     
-2.  Delete a value, use `set.delete(value)`, returns a boolean value indication if value is deleted successfully.
+3.  Delete a value, use `set.delete(value)`, returns a boolean value indication if value is deleted successfully.
     
     ```javascript
     const set = new Set();
@@ -156,13 +155,72 @@ A set is also a built-in datatype in Javascript used to store unique values. It 
 
 Both Map and Set have other methods like `values`, `entries`, `size` and `forEach` for iteration. Here I have explained you the necessory methods for insertion and deletion of values.
 
-### Comparison between Map vs Object
+## Comparison between Map vs Object
 
-Object vs Map:
-
-|  |  |  |
+| Feature | Map | Object |
 | --- | --- | --- |
-|  |  |  |
-|  |  |  |
+| Key Types | Any Type | String only |
+| Order of values | Maintained | Not guaranteed |
+| Performance | Optimized for insertion and removal | No optimization |
+| Iteration | Has in-built methods | Need other methods |
 
-Array vs Set
+## Comparison between Set vs Array
+
+| Features | Set | Array |
+| --- | --- | --- |
+| Unique Values | Yes | No |
+| Maintained Order | Yes | Yes |
+| Search | Faster with `has` method | Slower with `includes` method |
+
+## When to Use Map?
+
+Use Map when:
+
+*   You need key-value storage
+    
+*   Keys are not just strings
+    
+*   Frequent add/remove operations
+    
+*   You care about insertion order
+    
+
+Example:
+
+*   Caching data
+    
+*   Storing user sessions
+    
+*   Mapping objects to values
+    
+
+## When to Use Set?
+
+Use Set when:
+
+*   You need **unique values**
+    
+*   You want to **remove duplicates**
+    
+*   Fast lookup is required
+    
+
+Example:
+
+*   Unique tags
+    
+*   Removing duplicate IDs
+    
+*   Tracking visited items
+    
+
+## Conclusion
+
+*   Use Map when you need a better version of objects
+    
+*   Use Set when you need uniqueness without extra logic
+    
+*   Avoid forcing everything into Objects & Arrays
+    
+
+Follow Javascript series for more updates 🙂
