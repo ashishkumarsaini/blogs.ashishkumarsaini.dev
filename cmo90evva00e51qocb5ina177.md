@@ -99,7 +99,7 @@ Map is a built-in datatype in Javascript. It is used to store key-value pairs. I
 
 ## What is Set?
 
-A set is also a built-in datatype in Javascript used to store unique values. It is more like an array but with the power of uniqueness.
+A set is also a built-in datatype in Javascript used to store unique values. It is more like an array, but with the power of uniqueness.
 
 *   Store unique values
     
@@ -138,7 +138,7 @@ A set is also a built-in datatype in Javascript used to store unique values. It 
     console.log(set.has(40)); // false
     ```
     
-3.  Delete a value, use `set.delete(value)`, returns a boolean value indication if value is deleted successfully.
+3.  Delete a value, use `set.delete(value)`, returns a boolean value indicating if the value is deleted successfully.
     
     ```javascript
     const set = new Set();
@@ -153,9 +153,9 @@ A set is also a built-in datatype in Javascript used to store unique values. It 
     ```
     
 
-Both Map and Set have other methods like `values`, `entries`, `size` and `forEach` for iteration. Here I have explained you the necessory methods for insertion and deletion of values.
+Both Map and Set have other methods like `values`, `entries`, `size` and `forEach` for iteration. Here I have explained to you the necessary methods for insertion and deletion of values.
 
-## Comparison between Map vs Object
+## Comparison between Map and Object
 
 | Feature | Map | Object |
 | --- | --- | --- |
@@ -164,7 +164,7 @@ Both Map and Set have other methods like `values`, `entries`, `size` and `forEac
 | Performance | Optimized for insertion and removal | No optimization |
 | Iteration | Has in-built methods | Need other methods |
 
-## Comparison between Set vs Array
+## Comparison between Set and Array
 
 | Features | Set | Array |
 | --- | --- | --- |
