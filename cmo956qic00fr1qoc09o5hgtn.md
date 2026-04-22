@@ -1,10 +1,12 @@
 ---
-title: "String Polyfills and Common Interview Methods in JavaScript"
+title: "String Polyfills and Common Interview Questions in JavaScript"
 seoTitle: "String pollyfills and related interview questions"
 seoDescription: "This blog is about polyfills in JS using string examples. Also includes beginner-friendly polyfill examples with the related interview questions."
 datePublished: 2026-04-21T21:34:54.134Z
 cuid: cmo956qic00fr1qoc09o5hgtn
-slug: string-polyfills-and-common-interview-methods-in-javascript
+slug: string-polyfills-and-common-interview-questions
+cover: https://cdn.hashnode.com/uploads/covers/696877fccb285855f0758646/9bab08a8-273d-4a05-8b2b-3580a9c7172c.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/696877fccb285855f0758646/ea90711f-38f5-429c-a97f-709fdbc8851f.png
 tags: js-strings, stringpolyfills, js-polyfills
 
 ---
