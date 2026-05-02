@@ -62,10 +62,22 @@ After (Destructuring):
 const { name, age } = user;
 ```
 
-Renaming Variables: We can also rename the variables on the go, while destructuring.
+**Renaming Variables**: We can also rename the variables on the go, while destructuring.
 
 ```javascript
 const { name: username } = user;
+```
+
+**Default Values:** We can also assign the default values while destructuring objects
+
+```javascript
+const user = {
+  name: "Ashish"
+};
+
+const { name, age = 18 } = user;
+
+console.log(age); // 18
 ```
 
 ## Destructuring Arrays
